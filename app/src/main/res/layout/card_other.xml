@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_other"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/ic_md_playback"
+            android:layout_gravity="center"/>
+        <TextView
+            style="@style/CardLabelSmall"
+            android:layout_gravity="bottom"
+            android:text="回放" />
+
+    </FrameLayout>
+
+    <View style="@style/HorizontalDivider" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/ic_md_edog"
+            android:layout_gravity="center"/>
+        <TextView
+            style="@style/CardLabelSmall"
+            android:layout_gravity="bottom"
+            android:text="电子狗" />
+
+    </FrameLayout>
+</LinearLayout>
